@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+.smth {
+    display: flex;
+    gap: 10px;
+}
+.smth img {
+    width: 144.6px;
+    border-radius: 20px;
+}
+
+.idk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(61, 61, 61);   
+    border-radius: 30px;
+    padding: 30px;
+    gap: 10px;
+    background-color: white;
+}
+
+.idk a {
+    color: green;
+}
+
+.idk p {
+    font-size: xx-large;
+}
+
+.idk img {
+    width: 400px;
+    height: 300px;
+}
+
+.hi {
+    display: flex;
+    margin-top: 100px;
+    gap: 10px;
+}
