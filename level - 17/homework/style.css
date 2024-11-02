@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+body {
+    background-color:#212121  ;
+}
+
+header {
+    background-color: #191919;
+    padding: 20px 0;
+    color: #11290A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #388222;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links{
+    margin-left: 20px;
+    display: flex;
+    gap: 52px;
+}
+
+.nav-links a {
+    color: #46AD3F;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.nav-links a:hover {
+    color: #00ff33;
+}
+
+/* Section */
+
+.intro {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 111px;
+    
+    
+}
+
+.words {
+    width: 480px;
+    height: 313px;
+    color: #388222;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+.hello{
+font-size: 28px;
+font-weight: 400;
+text-align: left;
+
+
+}
+
+.name {
+
+font-size: 50px;
+font-weight: 700;
+
+text-align: left;
+}
+
+.name span {
+    color: #00ff33;
+}
+
+.p {
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+
+}
+
+.photo img {
+    max-width:456.71px ;
+    width: 100%;
+    border-radius:20px ;
+}
+
+.back {
+   background-image:url(tri.webp);
+background-repeat: no-repeat;
+background-size: cover;
+height: 720px;
+padding-top: 100px;
+}
+
+.button {
+    width: 235.75px ;
+    height:65px ;
+    background-color: #46AD3F;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-size: 20px;
+font-weight: 400px;
+color: #11290A;
+height:65px ;
+}
+
+.button:hover {
+    background-color: #00ff33;
+}
+
+/* 2nd section */
+
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: 230px 110px;
+    gap: 227px;
+}
+
+.image img {
+    max-width:369.48px ;
+    width: 100%;
+    border-radius:20px ; 
+}
+.text {
+    width: 623.31px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.text h1 {
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+color: #388222;
+}
+
+.text p {
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+color: #388222;
+}
+
+.both {
+    display: flex;
+    gap: 39px;
+}
+
+.bars {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 42px;
+}
+
+.hc {
+    display: flex;
+    gap: 70px;
+}
+
+.html {
+    background-color: #171717;
+    width: 215px;
+    display: flex;
+    border-right: #171717 solid 23px;
+}
+
+.html img {
+    height: 30px;
+    background-color: #212121;
+    border-right: #212121 solid 23px;
+}
+
+.html p {
+width: 70%;
+height: 30px;
+background-color:#00ff33;
+color: #212121;
+
+}
+
+/* 3rd section */
+
+.Awards {
+display: flex;
+justify-content: space-between;
+padding: 56px 110px;
+background-color: #388222;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.Projects h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Projects p {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+/* footer */
+
+.contact {
+ display: flex;
+ gap: 31px;
+ background-color: #171717;
+ margin-top: 230px;
+ justify-content: center;
+ padding: 67px 199px 35px 199px;
+}
+
+.mycon {
+display: flex;
+gap: 19px;
+align-items: center;
+}
+
+.border {
+    border: #388222 solid 2px;
+}
+
+.mycon img {
+    width: 24px;
+    height: 17px;    
+}
+.mycon a {
+    font-size: 24px;
+    color:#388222;
+}
+.full {
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 67px;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}

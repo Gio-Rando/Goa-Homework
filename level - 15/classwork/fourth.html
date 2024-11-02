@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="comparisons.html">Home</a></li>
+        <li><a href="#hi">Gallery</a></li>
+        <li><a href="#hello">About us</a></li>
+        <li><a href="#bye">Contact</a></li>
+    </ul>
+    <style>
+        ul{
+            display: flex;
+            text-decoration: none;
+            gap: 20px;
+            justify-content: center;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .hi {
+            padding: 200px;
+            background-color: red;
+        }
+        .hello {
+            padding: 200px;
+            background-color: blue;
+        }
+        .bye {
+            padding: 200px;
+            background-color: greenyellow;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+    <div id="hi" class="hi"> </div>
+    <div id="hello" class="hello"></div>
+    <div id="bye" class="bye"></div>
+</body>
+</html>
