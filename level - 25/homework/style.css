@@ -1,0 +1,20 @@
+p {
+    color: tomato;
+}
+/* style file is most far away, therefore it's weakest */
+button {
+    background-color: rgb(11, 11, 11);
+    color: gold;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+    height: 200px;
+}
+
+.p {
+    color: red;
+}

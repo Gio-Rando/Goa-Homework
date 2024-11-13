@@ -1,0 +1,22 @@
+p {
+    color: red;
+    text-align: center;
+    background-color: black;
+    font-weight: 900;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+}
+
+th {
+    color: gold;
+    text-align: center;
+    background-color: black;
+    font-weight: 900;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+}
+td {
+    color: gold;
+    text-align: center;
+    background-color: black;
+    font-weight: 900;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+}
