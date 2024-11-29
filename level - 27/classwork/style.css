@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+p{
+    color: lightskyblue;
+    font-weight: 900;
+}
+
+p b {
+    color: lightcoral;
+}
+
+/* Hello world */
+
+div p {
+    color: lightgreen;
+}
+
+.div p {
+    color: lightgoldenrodyellow;
+}
