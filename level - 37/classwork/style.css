@@ -1,0 +1,32 @@
+table ,td, th, tr {
+    border-collapse: collapse;
+    border: 4px solid black;
+  }
+
+tr:nth-child(odd){
+    background-color: gray;
+}
+
+th{
+    background-color: antiquewhite;
+}
+
+ol{
+    list-style-position: inside;
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+input[type="password"]{
+background-color: bisque;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 100% 50%;
+}

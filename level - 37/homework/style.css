@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&family=Pixelify+Sans:wght@400..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+  width: min-content;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.img{
+  border-radius: 15px 15px 0 0 ;
+}
+
+.down{
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.upper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.upper h1{
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 30px;
+}
+
+a{
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.upper p{
+  width: 350px;
+  line-height: 1.5;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.lower{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+
+.music{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ap{
+  font-weight: 900;
+  color:  hsl(223, 47%, 23%);
+  font-size: 20px;
+}
+
+.p{
+  font-size: 20px;
+  color: hsl(224, 23%, 55%);
+}
+
+.music div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.button1{
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.button2{
+  font-size: 15px;
+  padding: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}

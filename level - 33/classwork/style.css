@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.a:link{
+    color: red;
+    text-decoration: underline overline solid blue;
+}
+
+.a:visited{
+    color: green;
+    text-decoration: none;
+}
+
+.a:hover{
+    color: yellow;
+}
+
+.a:active{
+    color: blue;
+}
+
+.e:link{
+    color: red;
+    text-decoration: underline overline solid blue;
+}
+
+.e:visited{
+    color: green;
+    text-decoration: none;
+}
+
+.e:hover{
+    color: yellow;
+}
+
+.e:active{
+    color: blue;
+}
+
+button{
+    transition: 0.2s;
+    background-color: wheat;
+    border-radius: 10px;
+    border: chocolate solid 4px;
+    padding: 5px;
+    color: chocolate;
+    font-weight: 900;
+    margin-left: 15px ;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: chocolate;
+    border-color: wheat;
+    color: wheat;
+    transform: scale(1.4);
+}

@@ -18,3 +18,8 @@ button:hover{
     color: rgb(78, 74, 197);
     transform: scale(1.4);
 }
+body{
+    flex-flow:column-reverse wrap-reverse;
+    justify-content:center;
+    align-content:space-between;
+}
