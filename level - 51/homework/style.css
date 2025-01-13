@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1200px;
+    height: 600px;
+}
+
+.child{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.seoul{
+background:  url(https://static.independent.co.uk/2022/12/29/14/iStock-464629385.jpg) center/cover ;
+box-shadow: inset 0 0 0 2000px rgba(0, 255, 255, 0.5) , 0 0 15px cyan;
+color: yellow
+;
+}
+
+.tbilisi{
+    background: url(https://aroundtheworldwithme.com/wp-content/uploads/2021/08/Tbilisi-2.jpg) center/cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 0, 0.5) , 0 0 15px yellow;
+    color: cyan;
+}
+
+.washington{
+    background:  url(https://www.usnews.com/object/image/0000015a-196d-d479-a9df-997dacae0000/bs17-washington-gallery11.JPG?update-time=1486485302447&size=responsive640) center/cover ;
+    box-shadow: inset 0 0 0 2000px rgba(0, 255, 255, 0.5) , 0 0 15px cyan;
+    color: yellow;
+}
+
+.paris{
+    background: url(https://lh6.googleusercontent.com/proxy/QndxTELkb_urxOPPIhaDOFSyKXZ8etFnaGjD-KInr-emfBrl_wnpILnAHFVSQVDh-_5-ZsYXupDg1204MBPS-TgVJoHTnmO_thI6w_FZBisWimBVaJvAMx7aiubm-i2XH71GVos4BYkZvh0kIoh7HCkULBBOtkcsUvkO) center/cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 0, 0.5) , 0 0 15px yellow;
+    color: cyan;
+}
+
+.tokyo{
+    background:  url(https://www.advantour.com/img/japan/images/tokyo.jpg) center/cover ;
+    box-shadow: inset 0 0 0 2000px rgba(0, 255, 255, 0.5) , 0 0 15px cyan;
+    color: yellow;
+}
+
+
+.abu{
+    background: url(https://content.r9cdn.net/rimg/dimg/a8/85/bbf8aa0b-city-9457-164d6a9147e.jpg?width=1366&height=768&xhint=2731&yhint=1539&crop=true) center/cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 0, 0.5) , 0 0 15px yellow;
+    color: cyan;
+}

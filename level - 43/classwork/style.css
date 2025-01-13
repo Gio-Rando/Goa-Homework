@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Lobster&family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    width: max-content;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.img{
+    width: 300px;
+    border-radius: 8px;
+}
+
+.down{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top h1{
+    color: white;
+    font-size: 20px;
+}
+
+.top p{
+    width: 290px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.mid{
+   display: flex;
+   justify-content: space-between; 
+}
+
+.mid div{
+    display: flex;
+    gap: 10px;
+}
+
+
+.st p{
+    color: hsl(178, 100%, 50%);
+}
+
+.nd{
+    color: hsl(215, 51%, 70%);
+}
+
+.hr{
+    border-top: solid 1px hsl(215, 32%, 27%) ;
+}
+
+.low{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.low p{
+    color: hsl(215, 51%, 70%);
+}
+
+span{
+    color: white;
+}
+
+.low img{
+    width: 30px;
+    border: solid 1px white;
+    border-radius: 100%;
+}
