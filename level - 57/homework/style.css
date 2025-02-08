@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1200px;
+    height: 600px;
+}
+
+.child{
+    border-radius: 20px;
+    border: red solid 5px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.seoul:hover{
+animation: color 3s infinite;
+}
+
+.tbilisi:hover{
+    animation: rot 1s infinite;
+}
+
+.washington:hover{
+    animation: big 4s infinite;
+    
+}
+
+.paris{
+    background: url(https://lh6.googleusercontent.com/proxy/QndxTELkb_urxOPPIhaDOFSyKXZ8etFnaGjD-KInr-emfBrl_wnpILnAHFVSQVDh-_5-ZsYXupDg1204MBPS-TgVJoHTnmO_thI6w_FZBisWimBVaJvAMx7aiubm-i2XH71GVos4BYkZvh0kIoh7HCkULBBOtkcsUvkO) center/cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 0, 0.5) , 0 0 15px yellow;
+    color: cyan;
+}
+
+.tokyo{
+    background:  url(https://www.advantour.com/img/japan/images/tokyo.jpg) center/cover ;
+    box-shadow: inset 0 0 0 2000px rgba(0, 255, 255, 0.5) , 0 0 15px cyan;
+    color: yellow;
+}
+
+
+.abu{
+    background: url(https://content.r9cdn.net/rimg/dimg/a8/85/bbf8aa0b-city-9457-164d6a9147e.jpg?width=1366&height=768&xhint=2731&yhint=1539&crop=true) center/cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 0, 0.5) , 0 0 15px yellow;
+    color: cyan;
+}
+
+@keyframes color{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: green;
+    }
+}
+@keyframes rot{
+    0%{
+       transform: rotate(360deg);
+    }
+    100%{
+        border-radius: 100%;
+    }
+}
+@keyframes big {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) scale(1.5);
+    }
+}

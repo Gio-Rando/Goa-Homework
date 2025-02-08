@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.t{
+    lighting-color:red 4;
+    margin: 50px 0;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 255, 0);
+
+}
+
+.trans{
+    background: radial-gradient(red , yellow,lime,blue);
+    transition: 20s;
+}
+
+.scale{
+    transition: 3s;
+}
+
+.rot{
+    transition: 3s;
+}
+
+.trans:hover{
+
+    transform: translate(50px);
+    transform: rotate(36000deg);
+    background: linear-gradient(rgb(160, 160, 160),rgb(0, 0, 0),rgb(255, 255, 255),rgb(0, 0, 0));
+    border-radius: 100%;
+}
+
+.scale:hover{
+    border-radius: 100%;
+    background-color: aqua;
+    transform: rotate(180deg);
+    width: 500px;
+    height: 500px;
+}
+
+.rot:hover{
+    border-top: blue  5px solid;
+    border-bottom: blue  5px solid;
+    border-left: red 5px solid;
+    border-right: yellow 5px groove;
+    transform: rotate(180deg);
+    border-radius: 100%;
+    background-color: green;
+    box-shadow: 0 0 20px blueviolet;
+}
+
+
