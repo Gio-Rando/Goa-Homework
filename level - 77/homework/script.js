@@ -1,30 +1,21 @@
-// second version
+let img = document.getElementById("img")
+let buttons = document.getElementsByTagName("button")
 
-const child = document.getElementById("child");
+let images = ["./images/one.jpg","./images/two.jpg","./images/three.webp","./images/four.jpg","./images/five.webp"]
+let i = 0
 
-let x = 0;
-let y = 0;
+buttons[0].addEventListener("click", () => {
+    i++
+    if(i == images.length){
+        i = 0
+    }
+    img.src = images[i]
+})
 
-document.addEventListener("keydown", (e) =>{
-    console.log(e.key)
-
-    if((e.key == "w" || e.key == "W") && y > 0){
-        child.style.top == y
-        y-=5
+buttons[1].addEventListener("click", () => {
+    i--
+    if(i < 0){
+        i = images.length - 1
     }
-    else if((e.key == "s" || e.key == "S") && y < 450){
-        child.style.top == y
-        y+=5
-    }
-    else if((e.key == "d" || e.key == "D") && x < 450){
-        child.style.left == x
-        x+=5
-    }
-    else if((e.key == "a" || e.key == "A") && x > 0){
-        child.style.left == x
-        x-=5
-    }
-    
-    child.style.left = x + 'px';
-    child.style.top = y + 'px';
-} )
+    img.src = images[i]
+})
