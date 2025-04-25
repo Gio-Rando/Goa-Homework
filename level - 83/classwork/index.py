@@ -46,7 +46,7 @@ person2.scream()
 person2.say_name()
 print(Person.count)
 
-# დაწერეთ რას ეწოდება dunder method_ dunder method არის მაგალითად: __init__ ის გამოიყენება ცლას ინიციალიზებისთის
+# დაწერეთ რას ეწოდება dunder method_ dunder method არის მაგალითად: __init__ ის გამოიყენება class ინიციალიზებისთის
 # დაწერეთ რას ეწოდება instance variables_ არის ცვლადები რომლებიც ჩაიწერება dunder method-ს პარამეტრად
 # დაწერეთ რას ეწოდება class variables_ არის ცვლადი რომელიც ჩაიწერება class-ში, ფუნქციების გარეთ
-# ახსენით რა არის blueprint: არის ნახაზი/შაბლონი
+# ახსენით რა არის blueprint_ არის ნახაზი/შაბლონი
