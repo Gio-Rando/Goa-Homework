@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+</head>
+<body>
+  <div class="container">
+
+    <form>
+
+      <div style="margin-bottom: 30px;" class="upper">
+        <h3>Mortgage Calculator</h3>
+        <a href="">Clear All</a>
+      </div>
+      <div class="amount">
+        <label for="">Mortgage Amount</label>
+        <div class="am">
+          <div class="smth">
+            <p>£</p>
+          </div>
+          <input name="mort" step="any" type="number">
+        </div>
+      </div>
+      <div class="tr">
+
+        <div class="term">
+          <label for="">Mortgage Term</label>
+          <div class="am">
+            <input name="term" step="any" type="number">
+            <div class="smth">
+              <p>years</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rate">
+          <label for="">Interest Rate</label>
+          <div class="am">
+            <input name="rate" step="any" type="number">
+            <div class="smth">
+              <p>%</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="type">
+        <p>Mortgage Type</p>
+        <div class="radios">
+          <label for="" class="radio">
+            <input name="type" type="radio" value="repay">
+            <p>Repayment</p>
+          </label>
+          <label for="" class="radio">
+            <input name="type" type="radio" value="interst">
+            <p>Interest Only</p>
+          </label>
+        </div>
+
+      </div>
+
+      <label style="display: flex; background-color:hsl(61, 70%, 52%) ;align-items: center; width: max-content; padding: 0px 15px; border-radius: 20px;" for="sub"><img src="./assets/images/icon-calculator.svg" alt=""><input value="Calculate Repayment" id="sub" type="submit"></label>
+      
+
+    </form>
+    <div class="right">
+      <div class="titl">
+        <h3> Your results</h3>
+        <h6>Your results are shown below based on the information you provided. To adjust the results, edit the form and click “calculate repayments” again.</h6>
+      </div>
+      <div class="pay">
+        <div class="mon">
+          <h6>Your monthly repayments</h6>
+          <h1 id="paym">£0.00</h1>
+        </div>
+        <hr>
+        <div class="total">
+          <h6>Total you'll repay over the term</h6>
+          <h3 id="total">£0.00</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="./script.js"></script>
+
+</body>
+</html>

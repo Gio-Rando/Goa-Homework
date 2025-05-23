@@ -1,0 +1,5 @@
+const {subtract,add} = require("./mathUtils.js")
+const {greet} = require("./message.js")
+console.log(subtract(4,3))
+console.log(add(4,3))
+console.log(greet.language,greet.text)
